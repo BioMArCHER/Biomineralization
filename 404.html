@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Redirecting to BioMArCHER Biomineralization</title>
+  <script>
+    const correctPath = "/Biomineralization/";
+    const currentPath = window.location.pathname;
+
+    if (currentPath.toLowerCase() === correctPath.toLowerCase()) {
+      window.location.replace(window.location.origin + correctPath);
+    }
+  </script>
+</head>
+<body>
+  <p>
+    Redirecting to
+    <a href="/Biomineralization/">BioMArCHER Biomineralization</a>.
+  </p>
+</body>
+</html>
